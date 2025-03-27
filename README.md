@@ -8,7 +8,8 @@ This repository contains a script for training the [Phi3-Vision model](https://h
 **[[Llama3.2-Vision Finetuning]](https://github.com/2U1/Llama3.2-Vision-Ft)**<br>
 **[[Molmo Finetune]](https://github.com/2U1/Molmo-Finetune)**<br>
 **[[Pixtral Finetune]](https://github.com/2U1/Pixtral-Finetune)**<br>
-**[[SmolVLM Finetune]](https://github.com/2U1/SmolVLM-Finetune)**
+**[[SmolVLM Finetune]](https://github.com/2U1/SmolVLM-Finetune)**<br>
+**[[Gemma3 Finetune]](https://github.com/2U1/Gemma3-Finetune)**
 
 ## News
 
