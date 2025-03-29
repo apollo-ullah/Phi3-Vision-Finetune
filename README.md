@@ -41,7 +41,9 @@ This repository contains a script for training the [Phi3-Vision model](https://h
   - [Update](#update)
   - [Table of Contents](#table-of-contents)
   - [Supported Features](#supported-features)
+  - [Docker](#docker)
   - [Installation](#installation)
+    - [Environments](#environments)
     - [Using `requirements.txt`](#using-requirementstxt)
     - [Using `environment.yaml`](#using-environmentyaml)
   - [Dataset Preparation](#dataset-preparation)
@@ -72,7 +74,22 @@ This repository contains a script for training the [Phi3-Vision model](https://h
 - Video-data training
 - Selecting Phi3-vision and Phi3.5-Vision
 
+## Docker
+
+To simplfy the setting process for training, you could use the provided pre-build environments.
+
+```
+docker pull john119/vlm:v1
+docker run --gpus all -it -v /host/path:/docker/path --name vlm --ipc=host john119/vlm:v1 /bin/bash
+```
+
 ## Installation
+
+### Environments
+
+- Ubuntu 22.04
+- Nvidia-Driver 550.120
+- Cuda version 12.4
 
 Install the required packages using either `requirements.txt` or `environment.yml`.
 
