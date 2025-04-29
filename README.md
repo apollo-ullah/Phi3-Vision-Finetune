@@ -91,14 +91,14 @@ docker run --gpus all -it -v /host/path:/docker/path --name vlm --ipc=host john1
 
 - Ubuntu 22.04
 - Nvidia-Driver 550.120
-- Cuda version 12.4
+- Cuda version 12.6
 
 Install the required packages using either `requirements.txt` or `environment.yml`.
 
 ### Using `requirements.txt`
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu126
 pip install flash-attn --no-build-isolation
 ```
 
@@ -106,7 +106,7 @@ pip install flash-attn --no-build-isolation
 
 ```bash
 conda env create -f environment.yaml
-conda activate phi3v
+conda activate train
 pip install flash-attn --no-build-isolation
 ```
 
